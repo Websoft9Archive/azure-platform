@@ -14,7 +14,9 @@ module.exports = [
     collapsable: false,
     children: [
       '/zh/server-login',
+      '/zh/server-loginwin',
       '/zh/server-create',
+      '/zh/server-reset',
       '/zh/server-backup',
       '/zh/server-extension',
       '/zh/server-upgrade',
@@ -38,7 +40,6 @@ module.exports = [
     collapsable: false,
     children: [
       '/zh/business-marketplace',
-      '/zh/business-fee',
       '/zh/business-buy',
       '/zh/business-order',
     ]
@@ -50,6 +51,8 @@ module.exports = [
     children: [
       '/zh/else-faq',
       '/zh/else-troubleshooting',
+      '/zh/else-glossary',
+      '/zh/else-notices',
     ]
   },
   

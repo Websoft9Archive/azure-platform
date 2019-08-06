@@ -14,7 +14,7 @@ locales: {
     },
     '/zh/': {
       lang: 'zh-CN',
-      title: 'Metabase 镜像手册',
+      title: 'Azure云平台指南',
       description: 'You can get the Installation of Image,Administrator,Configuration of the OwnCloud from this documentation.'
     }
 },

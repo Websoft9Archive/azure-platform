@@ -14,7 +14,9 @@ module.exports = [
     collapsable: false,
     children: [
       '/server-login',
+      '/server-loginwin',
       '/server-create',
+      '/server-reset',
       '/server-backup',
       '/server-extension',
       '/server-upgrade',
@@ -38,7 +40,6 @@ module.exports = [
     collapsable: false,
     children: [
       '/business-marketplace',
-      '/business-fee',
       '/business-buy',
       '/business-order',
     ]
@@ -50,6 +51,8 @@ module.exports = [
     children: [
       '/else-faq',
       '/else-troubleshooting',
+      '/else-glossary',
+      '/else-notices',
     ]
   },
   

@@ -21,7 +21,7 @@ We know that a data disk is different from the system disk and is mainly used to
    ![setting datadisk](https://libs.websoft9.com/Websoft9/DocsPicture/en/azure/azure-addddisk2-websoft9.png)
 4. Connect to OS to initialize disk
     - Windows, please refer to Azure official documantation [Initialize Windows disk](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/attach-managed-disk-portal#initialize-a-new-data-disk)
-    - Linux, please refer to Azure official documantation [Initialize Linux disk](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/attach-disk-portal#connect-to-the-linux-vm-to-mount-the-new-disk) 
+    - Linux, please refer to Azure official documantation [Initialize Linux disk](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/attach-disk-portal#connect-to-the-linux-vm-to-mount-the-new-disk)
 5. Finish adding data disk
 
 ### Detach Data Disk

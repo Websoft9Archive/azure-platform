@@ -32,7 +32,7 @@ MySQL Password:@qDg1Vq1!V
 
 ### 示例2：启用系统root账号
 
-部分云厂商出于安全和法规要求，默认情况下没有开放Linux的root账号，只给用户提供了普通账号。如果您希望使用root账号，通过下面的步骤启用之：
+Azure出于安全和法规要求，默认情况下没有开放Linux的root账号，只给用户提供了普通账号。如果您希望使用root账号，通过下面的步骤启用之：
 
 ```shell
 sudo su
@@ -59,9 +59,10 @@ SFTP是使用SSH协议的FTP模式，也称之为安全增强型的FTP。SFTP工
 
 ### 管理文件
 
-WinSCP 通过拖拽，就可以方便上传下载文件，邮件点击文件（夹）可以对其进行各种操作
+WinSCP 通过拖拽，就可以方便上传下载文件，可以对文件（夹）可以对进行多种设置与操作
 
 1. 一般来说网站的文件都放在 */data/wwwroot* 目录下夹
+   ![upload files](http://libs.websoft9.com/Websoft9/DocsPicture/en/winscp/winscp-dragfile-websoft9.png)
 
 2. 右键单击服务器上一个文件或文件夹，可以对云服务器进行多种操作
    ![管理文件](http://libs.websoft9.com/Websoft9/DocsPicture/zh/winscp/websoft9-winscp-youjian.png)

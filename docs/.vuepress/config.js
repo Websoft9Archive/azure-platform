@@ -27,6 +27,9 @@ themeConfig: {
   displayAllHeaders: false, // 默认值：false
   sidebar: 'auto', // 默认值：false
 
+  //Markdown configuration
+  includeLevel: [1, 2], //默认值：[2, 3]
+
   //Github 
   repo: 'Websoft9/azure-platform',
   editLinks: true,

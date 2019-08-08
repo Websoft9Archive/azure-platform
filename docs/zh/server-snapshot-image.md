@@ -19,7 +19,7 @@
 ## 创建快照
 
 1. 登录到 [Azure 门户](https://portal.azure.com/)。
-2. 首先在左上角单击“所有服务” ，找到：计算->虚拟机->快照
+2. 首先在左上角单击“所有服务” ，找到：计算->快照
    ![img](https://libs.websoft9.com/Websoft9/DocsPicture/zh/azure/azure-snapshot-websoft9.png)
 3. 在“快照”边栏选项卡中，单击“添加” 或点击“创建快照”
    ![img](https://libs.websoft9.com/Websoft9/DocsPicture/zh/azure/azure-createsnapshot-websoft9.png)
@@ -40,7 +40,7 @@
 ### 快照创建镜像
 
 1. 登录到 [Azure 门户](https://portal.azure.com/)。
-2. 首先在左上角单击“所有服务” ，找到：计算->虚拟机->快照
+2. 首先在左上角单击“所有服务” ，找到：计算->快照
    ![img](https://libs.websoft9.com/Websoft9/DocsPicture/zh/azure/azure-snapshot-websoft9.png)
 3. 系统会列出所有快照
 4. 选择所需的快照，对它进行创建镜像操作

@@ -11,7 +11,7 @@
 1. 登录Azure控制台，打开：虚拟机->添加，开始创建虚拟机
 
 2. 创建虚拟机的时候选择合适的镜像（这是最重要的步骤）
-   ![image.png](https://cdn.nlark.com/yuque/0/2019/png/152462/1561696082465-c6cf3db1-9c16-4928-8f21-ae0b1e4be579.png)
+   ![image.png](http://libs.websoft9.com/Websoft9/DocsPicture/zh/azure/azure-createvmbyimage-websoft9.png)
 
    > 镜像来源有：官方镜像、云市场镜像和自定义镜像三种镜像来源。如果自定义镜像来源，磁盘就只能选择托管模式
 
@@ -21,11 +21,27 @@
 
 ## 系统盘创建
 
-1. 登录Azure控制台，打开“所有资源”，找到一个已经被其他虚拟机接触绑定的磁盘
-   ![image.png](https://cdn.nlark.com/yuque/0/2019/png/152462/1561695930928-52c7e003-c519-452c-9452-8548c1c57fc6.png)
+1. 登录Azure控制台，打开“所有资源”，找到一个已经被解除绑定的磁盘
+   ![image.png](http://libs.websoft9.com/Websoft9/DocsPicture/zh/azure/azure-createvmbydisk-websoft9.png)
 2. 点击这个磁盘，对这个磁盘进行“创建VM”操作
 3. 依次设置账号密码、网络、安全组等配置
 4. 查看 + 创建 通过之后，点击“创建”即可
 
+## 秘钥对
+在创建VM的时候，有些用户喜欢采用秘钥对方式作为登录凭证
 
+![image.png](http://libs.websoft9.com/Websoft9/DocsPicture/en/azure/azure-createvmsshkey-websoft9.png)
 
+由于Azure需要自行提供SSH public key, 因此需要用户提前准备。
+
+下面以 PUTTYGEN( Putty SSH Key创建工具)为例，说明如何创建SSH public key
+
+1. 下载并安装 [PUTTYGEN](https://www.ssh.com/ssh/putty/windows/puttygen).
+
+2. 点击"生成"按钮  
+![puttygen 生成](https://libs.websoft9.com/Websoft9/DocsPicture/en/putty/puttygen-generate-websoft9.png)
+
+3. 我们看到Public key 和 Private key 已经成功生成，你可以直接拷贝到Azure中使用("ssh-rsa"格式) ，同时建议分别保存到本地电脑作为备份
+![puttygen 保存](https://libs.websoft9.com/Websoft9/DocsPicture/en/putty/puttygen-generatesave-websoft9.png)
+
+4. When connect Linux on your local computer, you can use private key for authentication 

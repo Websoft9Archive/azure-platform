@@ -19,8 +19,10 @@ Azure的磁盘管理中有几个特殊的概念，下面提前解释：
    ![img](https://libs.websoft9.com/Websoft9/DocsPicture/zh/azure/azure-addddisk-websoft9.png)
 3. 设置数据磁盘规格
    ![img](https://libs.websoft9.com/Websoft9/DocsPicture/zh/azure/azure-addddisk2-websoft9.png)
-4. 登录到虚拟机，将已经挂载的数据磁盘进行初始化操作，附加到一个文件目录（简单理解为文件夹）
-5. 完成增加数据磁盘工作
+4. 登录到虚拟机，完成初始化磁盘操作
+    - Windows, 需要进入磁盘管理，请参考Azure官方文档 [初始化Windows磁盘](https://docs.microsoft.com/zh-cn/azure/virtual-machines/windows/attach-managed-disk-portal#initialize-a-new-data-disk)
+    - Linux，需要新磁盘进行分区、格式化和装载等操作，请参考请参考文档 [初始化Linux磁盘](https://docs.microsoft.com/zh-cn/azure/virtual-machines/linux/attach-disk-portal#connect-to-the-linux-vm-to-mount-the-new-disk) 
+5. Complete the above configuration to use the disk
 
 ### 分离数据盘
 
@@ -29,7 +31,7 @@ Azure的磁盘管理中有几个特殊的概念，下面提前解释：
 3. 在虚拟机窗格中，选择“磁盘” 。
 4. 在“磁盘” 窗格的顶部，选择“编辑” 。
    ![img](https://libs.websoft9.com/Websoft9/DocsPicture/zh/azure/azure-ddiskds-websoft9.png)
-5. 在“磁盘” 窗格中，转到要分离的数据磁盘最右侧，并单击![img](https://cdn.nlark.com/yuque/0/2019/png/152462/1562129007083-89bce572-0db3-4202-be1f-5f6dfdeae000.png)分离按钮。
+5. 在“磁盘” 窗格中，转到要分离的数据磁盘最右侧，并单击分离按钮。
    ![img](https://libs.websoft9.com/Websoft9/DocsPicture/zh/azure/azure-ddiskds2-websoft9.png)
 6. 删除磁盘后，单击窗格顶部的“保存”。
 7. 在虚拟机窗格中，单击“概述” ，并单击窗格顶部的“开始” 按钮重启 VM。

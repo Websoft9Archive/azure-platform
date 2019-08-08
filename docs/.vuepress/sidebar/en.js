@@ -1,6 +1,6 @@
 module.exports = [
   {
-    title: '开始',
+    title: 'Getting Started',
     collapsable: false,
     children: [
       '/',
@@ -10,7 +10,7 @@ module.exports = [
   },
   
   {
-    title: '云服务器（VM）',
+    title: 'Visual Machine',
     collapsable: false,
     children: [
       '/server-login',
@@ -26,7 +26,7 @@ module.exports = [
   },
   
   {
-    title: '网络与安全',
+    title: 'Network and Security',
     collapsable: false,
     children: [
       '/network-ip',
@@ -36,7 +36,7 @@ module.exports = [
   },
   
   {
-    title: '商务',
+    title: 'Business',
     collapsable: false,
     children: [
       '/business-marketplace',
@@ -46,7 +46,7 @@ module.exports = [
   },
 
   {
-    title: '其他',
+    title: 'Other',
     collapsable: false,
     children: [
       '/else-faq',

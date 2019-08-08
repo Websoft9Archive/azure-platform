@@ -1,27 +1,33 @@
-# 订阅
+# Subscriptions
 
-下面简单的对Azure云市场镜像类商品的订阅（购买）做一个说明：
+Below is the simple guide for subscriptions on Azure Marketplace:
 
-## 方式
+## About
 
-订阅=购买，具体的表现形式就是 [部署镜像](/zh/stack-deployment.md)
+Subscription means buying, when you have completed [image deployment on Azure](/stack-deployment.md) that means you have a  subscrition for this image.
 
-Azure平台中，由于虚拟机采用的是按小时计费，故镜像采用的是也是按小时计费模式，除此之外没有其他模式。
+In the Azure, the image is charged by Usage Quantity the same with VM Usage Quantity:
 
-- 镜像部署到虚拟机后，虚拟机用多长时间=镜像订阅了多长时间
-- 需要取消镜像订阅，就需要删除对应的虚拟机
-- 虚拟机停止运行，镜像停止计费？
+- One the image is used on VM, the image Usage Quantity= VM Usage Quantity
+- Need to cancel the image subscription, you need to delete the corresponding VM
+- The VM stops running and the image stops charging
 
-## 费用
+## Fee
 
-Azure云市场中，有免费的镜像，也有收费的镜像。
+Azure Marketplace, there are free image and paid image
 
-Websoft9公司在Azure平台中提供都是收费镜像，因为我们的盈利模式就是通过收费，为有意愿付费的客户提供企业级开源镜像以及技术支持服务。
+Websoft9 provides paid image on the Azure platform, our profit model is to provide enterprise-level open source image and technical support services to customers who are willing to pay through fees.
 
-> 如果您希望免费使用我们的产品，请部署我们的Ansible自动化脚本（[Github上的主页](https://github.com/websoft9)）
+> If you want to free to use our product, please refer to our [Github Project](https://github.com/websoft9)）
 
-我们的镜像费用会根据虚拟机CPU核数来灵活定价，一般来说核数越大，价格越高。
+Our image cost will be flexibly priced based on the number of virtual machine CPU cores. The larger the number of cores, the higher the price generally 
 
-以我们发布的Gitlab商品为例，通过商品页面的 Plans+Pricing，列出的Software Cost就是镜像定价
+Take the Gitlab product we released as an example. The Software Cost listed by the Plan+Pricing on the product page is the image pricing.
 
 ![img](https://libs.websoft9.com/Websoft9/DocsPicture/zh/azure/azure-fee-websoft9.png)
+
+## EULA
+
+EULA (End User Licence Agreement) is a contract between one or more parties based on the proprietary rights of a licensor to grant a right to the licensee to use or access the subject matter of the licence. 
+
+Once you have deployment the image of Websoft9 on Azure, that means you have accept[《Websoft9 EULA》](https://support.websoft9.com/docs/legal/eula)

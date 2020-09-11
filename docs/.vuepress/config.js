@@ -3,7 +3,7 @@ module.exports = {
 //针对不同项目，需要修改的参数有：base,title,description,repo以及nav,sidebar 文件夹下的导航js文件
 
 base: '/docs/azure/',
-dest: '.vuepress/html',
+dest: 'html/azure',
 
 //vuepress多语言，区别于主题多语言
 locales: {

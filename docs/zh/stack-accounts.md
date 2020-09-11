@@ -26,10 +26,10 @@
 
 | 名称                    | 用户名     | 可视化管理地址           |
 | ----------------------- | ---------- | ------------------------ |
-| MySQL/Mariadb PHP环境中 | root       | http://公网IP/phpmyadmin |
-| MySQL/Mariadb 其他      | root       | http://公网IP:9090       |
-| PostgreSQL              | postgres   | http://公网IP:9090       |
-| Mongodb                 | adminmongo | http://公网IP:9091       |
+| MySQL/Mariadb PHP环境中 | root       | http://服务器公网IP:9090 或 http://服务器公网IP/phpmyadmin |
+| MySQL/Mariadb 其他      | root       | http://服务器公网IP:9090       |
+| PostgreSQL              | postgres   | http://服务器公网IP:9090       |
+| Mongodb                 | adminmongo | http://服务器公网IP:9091       |
 | Oracle                  | system     | 暂无                     |
 | SQLServer               | sa         | 使用客户端管理           |
 
@@ -37,7 +37,7 @@
 
 ## 操作系统
 
-Azure平台中，操作系统的账号和密码是创建虚拟机的时候自行设置的，如果你创建过虚拟机，一定熟悉这个界面：
+Azure平台中，操作系统的账号和密码是创建虚拟机的时候自行设置的。图示：
 
 ![img](https://libs.websoft9.com/Websoft9/DocsPicture/zh/azure/azure-vmsetpw-websoft9.png)
 

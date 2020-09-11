@@ -34,14 +34,14 @@
 
 由于Azure需要自行提供SSH public key, 因此需要用户提前准备。
 
-下面以 PUTTYGEN( Putty SSH Key创建工具)为例，说明如何创建SSH public key
+下面以PUTTYGEN(KEY GENERATOR FOR PUTTY ON WINDOWS)为例，说明如何创建SSH public key
 
-1. 下载并安装 [PUTTYGEN](https://www.ssh.com/ssh/putty/windows/puttygen).
+1. Download and Install [PUTTYGEN](https://www.ssh.com/ssh/putty/windows/puttygen).
 
-2. 点击"生成"按钮  
-![puttygen 生成](https://libs.websoft9.com/Websoft9/DocsPicture/en/putty/puttygen-generate-websoft9.png)
+2. Click "Generate"  
+![image.png](https://libs.websoft9.com/Websoft9/DocsPicture/en/putty/puttygen-generate-websoft9.png)
 
-3. 我们看到Public key 和 Private key 已经成功生成，你可以直接拷贝到Azure中使用("ssh-rsa"格式) ，同时建议分别保存到本地电脑作为备份
-![puttygen 保存](https://libs.websoft9.com/Websoft9/DocsPicture/en/putty/puttygen-generatesave-websoft9.png)
+3. Public key and Private key is OK, you can copy public to Azure(format starting with "ssh-rsa") ,and Save the public key and private key on your local computer for backups
+   ![image.png](https://libs.websoft9.com/Websoft9/DocsPicture/en/putty/puttygen-generatesave-websoft9.png)
 
 4. When connect Linux on your local computer, you can use private key for authentication 

@@ -36,7 +36,7 @@ For security and regulatory requirements, Azure does not open the Linux root acc
 
 ```shell
 sudo su
-sudo sed -i 's/#PermitRootLogin yes/PermitRootLogin yes/' /etc/ssh/sshd_config
+sudo sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 sudo systemctl restart sshd
 sudo passwd root
 ```

@@ -23,7 +23,7 @@
 为了安全考虑，用户每一次部署，都会生成唯一的随机数据库密码，存放在服务中。只需如下的一条命令，即可查看
 
 ```shell
-cat /credentials/password.txt
+sudo cat /credentials/password.txt
 
 //运行结果
 MySQL username:root
@@ -36,7 +36,7 @@ Azure出于安全和法规要求，默认情况下没有开放Linux的root账号
 
 ```shell
 sudo su
-sudo sed -i 's/#PermitRootLogin yes/PermitRootLogin yes/' /etc/ssh/sshd_config
+sudo sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 sudo systemctl restart sshd
 sudo passwd root
 ```

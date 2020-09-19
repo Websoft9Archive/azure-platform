@@ -1,6 +1,6 @@
 # Backups
 
-We know that no one (organization) can guarantee that the VM will always be up and running. If the VM fails to start or fails to connect, what would happen if there was no backup? Is this less worthwhile to try?
+We know that no one (organization) can guarantee that the VM will always be up and running. If the VM fails to start or fails to connect, what would happen without backups? Is this worthwhile to try?
 
 If there is a backup, it can be restored to the state at the time of backup, greatly reducing the loss.
 

@@ -18,9 +18,9 @@ The Command is the basic operation of the Linux system. Azure provides two web-b
 
 After connecting to the server through the command line, the following two most common examples of operations are required:
 
-### Sample1: Getting database password
+### Sample1: Get database password
 
-For security reasons, each time a user deploys, a unique random database password is generated and stored in the service. Just one of the following commands to view
+For security reasons, each time a user deploys, a unique random database password is generated and stored in the service. Just require the following command to view:
 
 ```shell
 cat /credentials/password.txt
@@ -70,11 +70,11 @@ WinSCP can easily upload and download files by dragging and dropping, and can pe
 
 3. The relevant interface for modifying file permissions is as follows:
 
-   ![Gourp and Owner settings](http://libs.websoft9.com/Websoft9/DocsPicture/en/winscp/websoft9-winscp-quanxian.png)
+   ![Group and Owner settings](http://libs.websoft9.com/Websoft9/DocsPicture/en/winscp/websoft9-winscp-quanxian.png)
 
 ### Run Command
 
-WinSCP is a built-in command run function, although the command function is limited to running non-interactive naming (that is, no feedback and process input are required during command execution), but it is simple and practical for beginners.
+WinSCP has a built-in command run function. Although the command function is limited to running non-interactive naming (that is, no feedback and process input are required during command execution), it is simple and practical for beginners.
 
 1. WinSCP logs in to the server, click on the command window icon from the menu (shortcut Ctrl+T is also available)
    ![Command of Winscp](http://libs.websoft9.com/Websoft9/DocsPicture/en/winscp/winscp-ucmd-websoft9.png)

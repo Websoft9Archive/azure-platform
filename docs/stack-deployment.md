@@ -4,7 +4,7 @@ Websoft9 have published hundred of images on Azure Marketplace, customers (IT pr
 
 >  Do you want to deploy images of Websoft9, click [Here](https://azuremarketplace.microsoft.com/en-us/marketplace/apps?page=1&search=websoft9) to list all images of Websoft on Azure Marketplace
 
-How to deploy image on Azure? there three methods:
+How to deploy image on Azure? There are three methods:
 
 ## Deployment By Marketplace
 

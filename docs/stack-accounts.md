@@ -1,6 +1,6 @@
 # Username and Password
 
-You can get the credentials of Database and OS from this chapter
+You can get the credentials of Database and OS from this chapter.
 
 ## Database
 
@@ -10,15 +10,15 @@ Getting password from Linux and Windows have some difference
 
 #### Linux
 
-For Linux, the database password was storaged in the file of your VM: *`/credentials/password.txt`*. Suggest you log in Azure Portal and using the online SSH terminal to run the the `cat` command to get the password：
+For Linux, the database password is stored in the file of your VM: *`/credentials/password.txt`*. Suggest you log in Azure Portal and use the online SSH terminal to run the the `cat` command to get the password：
 
 ![run cat Command](https://libs.websoft9.com/Websoft9/DocsPicture/zh/common/catdbpassword-websoft9.png)
 
 #### Windows
 
-For Window, the database password was storaged in the file of your VM:*`c:/credentials/password.txt`*
+For Window, the database password is stored in the file of your VM:*`c:/credentials/password.txt`*
 
-You can also find the shortcut for password file from the Windows Desktop
+You can also find the shortcut for password file from the Windows Desktop.
 
 ### Database Username and GUI
 

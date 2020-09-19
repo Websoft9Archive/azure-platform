@@ -2,7 +2,7 @@
 
 Azure Marketplace provides access and information on solutions and services available from Microsoft and our partners. Customers (IT professionals and developers) can discover, try to buy cloud software solutions built on or built for Azure. Our catalog of 8,000+ listings provides Azure building blocks, such as Virtual Machines (VMs), APIs, Azure apps, Solution Templates and managed applications, SaaS apps, containers, and consulting services.
 
-Websoft9 is Parnter of Azure Marketplace, we have pulished hundred of images on Azure for user to deploy opensource software simply. 
+Websoft9 is Partner of Azure Marketplace, we have published hundreds of images on Azure for user to deploy open source software simply. 
 
 Azure Marketplace have two version:
 

@@ -30,4 +30,4 @@ More terms, refer to the charpter [《Azure Terms》](/else-glossary.md) of this
 ## Improve
 
 This document will continue to improve and broadly absorb the needs of users.
-If you have good idea, please don't hesitate to give us feedback by "**Edit this page on GitHub**", and welcome you to fork this documentation on [Github](https://github.com/websoft9/azure-platform)。
+If you have good idea, please don't hesitate to "**Edit this page on GitHub**" to give us feedback, and welcome you to fork this documentation on [Github](https://github.com/websoft9/azure-platform)。

@@ -5,6 +5,10 @@ module.exports = {
 base: '/docs/azure/',
 dest: 'html/azure',
 
+head: [
+  ['link', { rel: 'icon', href: '/favicon.ico' }]
+],
+
 //vuepress多语言，区别于主题多语言
 locales: {
     '/': {
@@ -34,7 +38,7 @@ themeConfig: {
   repo: 'Websoft9/azure-platform',
   editLinks: true,
   docsDir: 'docs',
-  docsBranch: 'master',
+  docsBranch: 'main',
 
   //主题多语言
   locales: {

@@ -54,6 +54,10 @@ Azure默认情况下，root账号是没有启用的，实际上我们可以想�
 
 不要使用临时磁盘 (/dev/sdb1) 存储数据。 它只是用于临时存储。 有丢失无法恢复的数据的风险。
 
+#### 托管磁盘与非托管磁盘有什么区别？
+
+托管磁盘即用户的磁盘属于Azure磁盘集群中的一部分，非托管磁盘是用户存储账号下的磁盘。
+
 #### 创建VM，对用户名和密码有什么格式要求？
 
 Azure有较为明确的要求，具体参考[Azure用户名和密码要求](https://docs.microsoft.com/zh-cn/azure/virtual-machines/linux/faq#what-are-the-username-requirements-when-creating-a-vm)

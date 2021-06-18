@@ -61,3 +61,10 @@ Azure默认情况下，root账号是没有启用的，实际上我们可以想�
 #### 创建VM，对用户名和密码有什么格式要求？
 
 Azure有较为明确的要求，具体参考[Azure用户名和密码要求](https://docs.microsoft.com/zh-cn/azure/virtual-machines/linux/faq#what-are-the-username-requirements-when-creating-a-vm)
+
+#### 如何批量恢复误删的 blob?
+
+下载[Microsoft Azure Storage Explorer](https://azure.microsoft.com/zh-cn/features/storage-explorer/)，安装连接登录后，参考下图恢复已删除的文件
+![Azure 批量恢复文件](https://libs.websoft9.com/Websoft9/DocsPicture/zh/azure/azure-storageexplorer-canceldel-websoft9.png)
+
+> 恢复过程中可能会报错，需反复重试多次

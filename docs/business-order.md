@@ -1,4 +1,4 @@
-# Oders
+# Orders
 
 In the Azure platform, after the image deployment is completed, the relevant order is generated.
 
